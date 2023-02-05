@@ -1,0 +1,169 @@
+*{
+    width:100%;
+    border: 0px;
+    margin: 0px;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height:20vh;
+    border:2px solid blue;
+    margin:none;
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(26, 116, 195);
+    gap:30px;
+}
+.left-menu{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    text-align:justify;
+}
+.LOGO{
+    width:140px;
+    height:100px;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+    color:crimson;
+    font-family:serif;
+}
+h1:hover{
+    background-color:gray;
+}
+.right-icon{
+    border: 1px dotted gray;
+    padding: 15px;
+    gap:10px;
+}
+.right-icon ul{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    justify-content: space-between;
+    color:brown;
+}
+ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 15px;
+    color:burlywood;
+}
+a:hover{
+    background-color: tomato;
+}
+.main{
+    width:100%;
+    text-align: center;
+}
+.main h1{
+    color:blue;
+    background-color: azure;
+    border:1px solid cyan;
+    padding:10px;
+}
+.main p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    padding:10px;
+    border-radius: 5px;
+}
+.de {
+    width:100%;
+    height:15vh;
+    border:1px solid brown;
+    background-color: brown;
+    text-align: center;
+    padding:15px;
+}
+.de h1{
+    border-radius:10px;
+    background-color: brown;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.de h1:hover{
+    background-color: black;
+}
+.pk{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.under{
+    background-image: url(./OIF.jpeg);
+    background-repeat: no-repeat;
+    width:600px;
+    height:1200px;
+    border-radius: 5px;
+}
+.under h1{
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    color:white;
+}
+.under h1:hover{
+    background-color: tomato;
+}
+.under ul{
+    text-align: center;
+    color:red;
+    font-size: 18px;
+    padding:15px;
+}
+.post{
+    background-image: url(./OIP.jpeg);
+    background-repeat: no-repeat;
+    width:600px;
+    height:280px;
+}
+.post h1{
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    color:white;
+}
+.post h1:hover{
+   background-color: tomato; 
+}
+.post ul{
+    text-align: center;
+    color:red;
+    font-size: 18px;
+    padding:15px;
+}
+.admission{
+    background-image: url(./students_college_campus.jpg);
+    background-repeat: no-repeat;
+    width:600px;
+    height:280px;
+}
+.admission h1{
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    color:white;
+}
+.admission h1:hover{
+    background-color: tomato;
+}
+.admission ul{
+    text-align: center;
+    color:red;
+    font-size: 18px;
+    padding:15px;
+}
